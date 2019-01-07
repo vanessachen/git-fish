@@ -40,6 +40,8 @@ You should see the following message:
 
 How can you access other branches?  First, retrieve the `dev` branch from the cloud.
 
+	git remote add upstream https://github.com/stackmaps/git-fish.git
+	git pull
     git checkout dev
     git pull upstream dev
 
