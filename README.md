@@ -85,6 +85,17 @@ Pick an issue (or create a new one) which your new feature will address.
 
 Proceed with writing code.  Commit frequently!  Focus on writing very clear, concise commit statements and plentiful comments.  If you have poor comments or zero tests, your PR will not be merged.
 
+## Configuring your account
+
+To make your name not appear on github and instead be anonymous run the next two lines
+
+   git config user.name "ANONYMOUS"
+   git config user.email "imaginary@email.add"
+
+You can change either the ANONYMOUS or imaginary@email.add.
+
+## Adding to the repo
+
 If you are aware of changes in the branch you forked from, rebase your branch from that changing branch (in our case that is `dev`) By running:
 
     git rebase dev
