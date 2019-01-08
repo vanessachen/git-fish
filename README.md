@@ -2,7 +2,9 @@
 
 Welcome to the development branch!
 
-This README file explains different skills helpful for using the command line and git.
+This README file explains different skills helpful for using the command line and git.  Take a look at the git workflow link here to understand forking:
+
+https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow
 
 ## Getting started with git
 
