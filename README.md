@@ -50,10 +50,10 @@ How can you access other branches?  First, retrieve the `dev` branch from the cl
 
 ## Configuring your account
 
-To make your name not appear on github and instead be anonymous run the next two lines
+To make your name not appear on github and instead be anonymous run the next two lines::
 
-   git config user.name "ANONYMOUS"
-   git config user.email "imaginary@email.add"
+   	git config user.name "ANONYMOUS"
+	git config user.email "imaginary@email.add"
 
 You can change either the ANONYMOUS or imaginary@email.add
 
