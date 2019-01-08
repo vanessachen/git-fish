@@ -105,3 +105,5 @@ IMPORTANT: WHEN YOUR PR IS ACCEPTED, stop using your branch right away (or delet
 
 # Learning Log
 
+[ctrl] + x and [ctrl]+s to just save in emacs
+and emacs -nw docname to open document
