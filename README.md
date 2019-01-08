@@ -1,10 +1,10 @@
-# Resources for practicing using git
+# git-fish/dev
 
-This repo contains files for practicing using git.  The `master` branch contains a Python turtle game with a random-moving square and a fish (controllable using the arrow keys).  The `dev` branch contains experimental features. 
+Welcome to the development branch!
 
-The repo assumes Python 3.
+This README file explains different skills helpful for using the command line and git.
 
-## Getting started
+## Getting started with git
 
 To get started, fork this repo and then clone the fork to your local machine.
 
@@ -99,4 +99,7 @@ then click `new pull request`. Then change the base to `dev` and the compare to 
 
 
 IMPORTANT: WHEN YOUR PR IS ACCEPTED, stop using your branch right away (or delete it altogether).  New features (or enhanced versions of your existing feature) should be created on brand new branches (after pulling in all the fresh changes from `dev`).
+
+
+# Learning Log
 
