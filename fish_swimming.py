@@ -71,9 +71,9 @@ turtle.onkeypress(move_right,"Right")
 
 def move_left():
     if player.xcor() > MIN_X:
-        a = 10
+        a = 100
         x,y = player.pos()
-        player.goto(x-20,y)
+        player.goto(x-45,y+10)
 
 turtle.onkeypress(move_left,"Left")
 
