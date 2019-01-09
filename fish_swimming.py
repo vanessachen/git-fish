@@ -19,7 +19,7 @@ turtle.goto(0,300)
 # pictures for the game
 turtle.bgpic("diver3.gif") # background picture
 turtle.register_shape("fish.gif") # fish picture
- 
+
 # create a piece of food
 food = turtle.clone()
 food.shape("square") # set the food to be a square shape
@@ -50,8 +50,8 @@ def move_food():
         y = y_next
     else:
         y = y_now
-    
-    # move the food to the new position 
+
+    # move the food to the new position
     food.goto(x,y)
 
 # define the player
@@ -71,9 +71,9 @@ turtle.onkeypress(move_right,"Right")
 
 def move_left():
     if player.xcor() > MIN_X:
-        a = 100
+        a = 10
         x,y = player.pos()
-        player.goto(x-45,y+10)
+        player.goto(x-5,y)
 
 turtle.onkeypress(move_left,"Left")
 
